@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "@/app/components/navbar/page";
 import TopNav from "@/app/components/topnav/page";
 import aboutImg from "../../../../public/aboutImg.png";
-import ceo_photo from "../../../../public/ceo_photo1.JPG";
+import ceo_photo from "../../../../public/founderimg.jpg";
 import Footer from "@/app/components/footer/page";
 import ApplynowBtn from "@/app/components/applynowbtn/page";
 import "../../styles.css";
@@ -137,7 +137,7 @@ const About = () => {
                   <div className="card-body text-dark">
                     <h5 className="card-title "> Pradeep Mishra</h5>
                     <p className="card-text ">
-                      I'm Pradeep Mishra, an MBA graduate, and I'm like the
+                      I'm Mamta Rewar, an MBA graduate, and I'm like the
                       captain of a company called Addrupee, steering it towards
                       success.
                     </p>
@@ -151,7 +151,7 @@ const About = () => {
                     >
                       <Link
                         style={{ textDecoration: "none", color: "white" }}
-                        href="/"
+                        href="/pages/teampage"
                       >
                         Read more
                       </Link>
@@ -159,62 +159,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-12 col-md-6 col-lg-4">
-                <div className="card my-3" style={{ width: "100%" }}>
-                  <Image className="card-img-top" src={team2} alt="..." />
-                  <div className="card-body text-dark">
-                    <h5 className="card-title text-dark">Mamta Mishra</h5>
-                    <p className="card-text">
-                      I'm Mamta Mishra, an MBA graduate, and I'm like the
-                      captain of a company called Addrupee, steering it towards
-                      success.
-                    </p>
-                    <button
-                      className="py-2 px-2 button_class"
-                      style={{
-                        border: "none",
-                        borderRadius: "5px",
-                        backgroundColor: "#036E8C",
-                      }}
-                    >
-                      <Link
-                        style={{ textDecoration: "none", color: "white" }}
-                        href="/"
-                      >
-                        Read more
-                      </Link>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-6 col-lg-4 justify-content-center">
-                <div className="card my-3" style={{ width: "100%" }}>
-                  <Image className="card-img-top" src={team3} alt="..." />
-
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <button
-                      className="py-2 px-2 button_class"
-                      style={{
-                        border: "none",
-                        borderRadius: "5px",
-                        backgroundColor: "#036E8C",
-                      }}
-                    >
-                      <Link
-                        style={{ textDecoration: "none", color: "white" }}
-                        href="/"
-                      >
-                        Read more
-                      </Link>
-                    </button>
-                  </div>
-                </div>
-              </div> */}
+           
             </div>
           </div>
         </section>
