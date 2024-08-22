@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "@/app/components/navbar/page";
 import TopNav from "@/app/components/topnav/page";
 import aboutImg from "../../../../public/aboutImg.png";
-import ceo_photo from "../../../../public/founderimg.jpg";
+import ceo_photo from "../../../../public/founderimage.jpg";
 import Footer from "@/app/components/footer/page";
 import ApplynowBtn from "@/app/components/applynowbtn/page";
 import "../../styles.css";
@@ -135,7 +135,7 @@ const About = () => {
                     alt="..."
                   />
                   <div className="card-body text-dark">
-                    <h5 className="card-title "> Pradeep Mishra</h5>
+                    <h5 className="card-title "> Mamta Rewar</h5>
                     <p className="card-text ">
                       I'm Mamta Rewar, an MBA graduate, and I'm like the
                       captain of a company called Addrupee, steering it towards

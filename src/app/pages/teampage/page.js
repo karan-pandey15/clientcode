@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ceo_photo from "../../../../public/founderimg.jpg";
+import ceo_photo from "../../../../public/founderimage.jpg";
 import Link from 'next/link';
 import Image from "next/image";
 import Navbar from '@/app/components/navbar/page';
@@ -46,12 +46,7 @@ Thank you for considering AddRupee. Together, we can make your financial dreams 
                     alt="..."
                   />
                   <div className="card-body text-dark">
-                    <h5 className="card-title ">Mamta Rewar</h5>
-                    <p className="card-text ">
-                      I'm Mamta Rewar, an MBA graduate, and I'm like the
-                      captain of a company called Addrupee, steering it towards
-                      success.
-                    </p> 
+                    <h5 className="card-title ">Mamta Rewar</h5> 
                   </div>
                 </div>
               </div> 
